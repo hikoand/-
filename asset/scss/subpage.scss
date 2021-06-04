@@ -236,8 +236,11 @@
       color: $fontColorPrimary;
     }
   }
-}
+  #map {
+    margin: 0 auto;
+  }
 
-#map {
-  margin: 0 auto;
+  h4 {
+    padding-top: 20px;
+  }
 }

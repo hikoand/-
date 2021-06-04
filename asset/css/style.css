@@ -749,7 +749,11 @@ table td {
   color: #23b1a5;
 }
 
-#map {
+.location_inner #map {
   margin: 0 auto;
+}
+
+.location_inner h4 {
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
