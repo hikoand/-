@@ -732,4 +732,24 @@ table td {
   text-align: left;
   padding-top: 20px;
 }
+
+.location_inner {
+  text-align: center;
+}
+
+.location_inner h3 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 800;
+}
+
+.location_inner h3 span {
+  color: #23b1a5;
+}
+
+#map {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */

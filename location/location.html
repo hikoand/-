@@ -49,11 +49,13 @@
                 <h2>location</h2>
               </div>
             </div>
-
-            <h3>동구밭의 <span>채용문화</span></h3>
-
-            <div class="inner kakao_map">
-              <div id="map" style="width: 1000px; height: 350px"></div>
+            <div class="inner location_inner">
+              <h3>FACTORY <span>MAP</span></h3>
+              <div class="inner kakao_map">
+                <div id="map" style="width: 1000px; height: 350px"></div>
+              </div>
+              <h4>제 1 공장(본사)</h4>
+              <p>경기도 하남시 미사강변서로 25 미사테스타타워 FB329~FB332호</p>
             </div>
           </div>
         </div>
@@ -129,14 +131,14 @@
     <script>
       var mapContainer = document.getElementById("map"), // 지도를 표시할 div
         mapOption = {
-          center: new kakao.maps.LatLng(35.880853, 128.731461), // 지도의 중심좌표
+          center: new kakao.maps.LatLng(37.549678, 127.186309), // 지도의 중심좌표
           level: 3, // 지도의 확대 레벨
         };
 
       var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
       // 마커가 표시될 위치입니다
-      var markerPosition = new kakao.maps.LatLng(35.880853, 128.731461);
+      var markerPosition = new kakao.maps.LatLng(37.549678, 127.186309);
 
       // 마커를 생성합니다
       var marker = new kakao.maps.Marker({
